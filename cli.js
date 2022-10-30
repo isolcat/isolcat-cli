@@ -50,7 +50,6 @@ program
 
 
 
-
 program
     .command("config [value]") // config 命令
     .description("inspect and modify the config")
@@ -63,52 +62,6 @@ program
     });
 
 
-
-
-console.log(`hello ${chalk.blue("world")}`);
-console.log(chalk.blue.bgRed.bold("Hello world!"));
-console.log(
-    chalk.green(
-        "I am a green line " +
-        chalk.blue.underline.bold("with a blue substring") +
-        " that becomes green again!"
-    )
-);
-inquirer.prompt([{
-    name: "vue",
-    // 多选交互功能
-    // 单选将这里修改为 list 即可
-    type: "checkbox",
-    message: "Check the features needed for your project:",
-    choices: [{
-            name: "Babel",
-            checked: true,
-        },
-        {
-            name: "TypeScript",
-        },
-        {
-            name: "Progressive Web App (PWA) Support",
-        },
-        {
-            name: "Router",
-        },
-    ],
-}, ]).then((data) => {
-    console.log(data);
-});
-
-// 启动loading
-spinner.start();
-setTimeout(() => {
-    spinner.color = "yellow";
-    spinner.text = "Loading rainbows";
-}, 1000);
-
-// loading 成功
-spinner.succeed();
-// loading 失败
-spinner.fail();
 
 // 艺术字
 console.log(
