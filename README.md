@@ -12,7 +12,6 @@ isolcat-cli help
 - 💪Reduction of repetitive operations
 
 ```shell
-isolcat-cli
 
            .-')                                      ('-.     .-') _
           ( OO ).                                   ( OO ).-.(  OO) )
