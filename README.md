@@ -1,4 +1,16 @@
 # isolcat-cli
+Install
+```shell
+npm i isolcat-cli
+```
+
+Help
+```shell
+isolcat-cli help
+```
+- ⚡Quickly create vue2 or vue3 templates
+- 💪Reduction of repetitive operations
+
 ```shell
 isolcat-cli
 
@@ -23,15 +35,4 @@ Commands:
   help [command]                   display help for command
 
 Run isolcat <command> --help for detailed usage of given command.
-Install
-```shell
-npm i isolcat-cli
 ```
-
-Help
-```shell
-isolcat-cli help
-```
-⚡Quickly create vue2 or vue3 templates
-💪Reduction of repetitive operations
-
